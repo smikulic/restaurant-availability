@@ -1,0 +1,32 @@
+.availability-list {
+  overflow: hidden;
+  margin-top: 50px;
+  height: 75vh;
+  background-color: white;
+  box-shadow: $boxShadow-default;
+
+  .availability-list__headline {
+    padding: 10px 20px;
+    font-size: $fontSize-medium;
+    color: $accentColor;
+    box-shadow: $boxShadow-default;
+  }
+  .availability-list__content {
+    overflow: scroll;
+    height: 100%;
+  }
+  .availability-list__option {
+    padding: 15px 15px 15px 13px;
+    font-size: $fontSize-medium;
+    border-left: 2px solid transparent;
+    cursor: pointer;
+
+    &:nth-child(2n) {
+      background-color: $lightPrimaryColor;
+    }
+
+    &:hover {
+      border-left: 2px solid $accentColor;
+    }
+  }
+}

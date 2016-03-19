@@ -1,0 +1,22 @@
+//Buttons
+.btn {
+  position: relative;
+  width: 120px;
+  @include m-height(30px);
+  background-color: $accentColor;
+  color: $textPrimaryColor;
+  border: 0;
+  outline: 0;
+  box-shadow: $boxShadow-default;
+}
+.btn:hover {
+  box-shadow: $boxShadow-hover;
+}
+.btn:active {
+  top: 1px;
+}
+
+.btn-large {
+  width: 180px;
+  @include m-height(40px);
+}
