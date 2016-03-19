@@ -1,7 +1,7 @@
 # Restaurant Reservations - The Fish
 
 ## Install
-`git clone git@github.com:smikulic/stash.git`
+`git clone git@github.com:smikulic/restaurant-availability.git`
 
 `[sudo] npm install`
 
