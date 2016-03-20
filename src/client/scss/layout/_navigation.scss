@@ -1,9 +1,0 @@
-.navigation {
-  @include m-height(60px);
-  background-color: $accentColor;
-  color: $textPrimaryColor;
-
-  .name {
-    font-size: $fontSize-extraLarge;
-  }
-}
