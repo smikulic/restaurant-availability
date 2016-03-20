@@ -13,8 +13,8 @@ const OverviewPage = React.createClass({
     return (
       <div className="page overview">
         <Navigation />
-        <div className="pure-u-1-5"></div>
-        <div className="pure-u-3-5">
+        <div className="pure-u-4-24"></div>
+        <div className="pure-u-16-24">
           <AvailabilityList />
         </div>
       </div>
