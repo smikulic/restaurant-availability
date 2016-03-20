@@ -20,3 +20,91 @@
   width: 180px;
   @include m-height(40px);
 }
+
+// Icons
+.svg-icon {
+  position: absolute;
+  top: 5px;
+  cursor: pointer;
+}
+.svg-icon__minimize {
+  right: 50px;
+}
+.svg-icon__close {
+  right: 10px;
+}
+
+// Modals
+.modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.3);
+  width: 100%;
+  height: 100%;
+}
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  background-color: white;
+  width: 60%;
+  height: 60%;
+  box-shadow: $boxShadow-default;
+
+  .modal-headline {
+    padding-left: 30px;
+    @include m-height(60px);
+    font-size: $fontSize-extraLarge;
+    color: white;
+    background-color: $accentColor;
+  }
+  .modal-content {
+    padding: 30px;
+    color: $primaryTextColor;
+
+    p {
+      margin: 5px 0;
+    }
+
+    .description {
+      font-size: $fontSize-small;
+      color: $secondaryTextColor;
+    }
+
+    .svg-icon {
+      position: relative;
+    }
+  }
+}
+
+.modal-minimize {
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  @include m-height(40px);
+
+  .modal-headline {
+    padding-left: 10px;
+    @include m-height(40px);
+    width: 270px;
+    font-size: $fontSize-small;
+    color: white;
+    background-color: $accentColor;
+  }
+
+  .svg-icon__close {
+    right: 5px;
+  }
+  .svg-icon__maximize {
+    right: 35px;
+  }
+}
+
+// Labels
+.label {
+  margin: 20px 0 10px 0;
+  font-size: $fontSize-small;
+  color: $primaryTextColor;
+  text-transform: uppercase;
+}

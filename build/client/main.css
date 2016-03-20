@@ -787,6 +787,76 @@ body {
   height: 40px;
   line-height: 39px; }
 
+.svg-icon {
+  position: absolute;
+  top: 5px;
+  cursor: pointer; }
+
+.svg-icon__minimize {
+  right: 50px; }
+
+.svg-icon__close {
+  right: 10px; }
+
+.modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%; }
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  background-color: white;
+  width: 60%;
+  height: 60%;
+  box-shadow: 0 3px 12px -2px #B6B6B6; }
+  .modal .modal-headline {
+    padding-left: 30px;
+    height: 60px;
+    line-height: 59px;
+    font-size: 20px;
+    color: white;
+    background-color: #00BCD4; }
+  .modal .modal-content {
+    padding: 30px;
+    color: #212121; }
+    .modal .modal-content p {
+      margin: 5px 0; }
+    .modal .modal-content .description {
+      font-size: 12px;
+      color: #727272; }
+    .modal .modal-content .svg-icon {
+      position: relative; }
+
+.modal-minimize {
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  height: 40px;
+  line-height: 39px; }
+  .modal-minimize .modal-headline {
+    padding-left: 10px;
+    height: 40px;
+    line-height: 39px;
+    width: 270px;
+    font-size: 12px;
+    color: white;
+    background-color: #00BCD4; }
+  .modal-minimize .svg-icon__close {
+    right: 5px; }
+  .modal-minimize .svg-icon__maximize {
+    right: 35px; }
+
+.label {
+  margin: 20px 0 10px 0;
+  font-size: 12px;
+  color: #212121;
+  text-transform: uppercase; }
+
 .page.landing .btn {
   position: absolute;
   top: 50%;
